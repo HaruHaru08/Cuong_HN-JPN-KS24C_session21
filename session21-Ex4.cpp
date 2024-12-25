@@ -3,7 +3,6 @@
 int main() {
     FILE *file;
     char line[100];
-
     file = fopen("bt01.txt", "r");
     if (file == NULL) {
         printf("Khong the mo file\n");
